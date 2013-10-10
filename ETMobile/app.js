@@ -20,6 +20,10 @@ Ext.application({
     views: [
         'Main'
     ],
+    
+    profiles: [
+        'Native'
+    ],
 
     icon: {
         '57': 'resources/icons/Icon.png',

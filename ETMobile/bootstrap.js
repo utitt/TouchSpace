@@ -20,6 +20,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.draw.engine.SvgContext.Gradient": "../touch/src/draw/engine/SvgContext.js"
 });
 Ext.ClassManager.addNameAlternateMappings({
+  "ETMobile.profile.Native": [],
   "ETMobile.view.Main": [],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],
@@ -745,6 +746,7 @@ Ext.ClassManager.addNameAlternateMappings({
   ]
 });
 Ext.ClassManager.addNameAliasMappings({
+  "ETMobile.profile.Native": [],
   "ETMobile.view.Main": [
     "widget.main"
   ],
