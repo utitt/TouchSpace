@@ -5,6 +5,7 @@
  * metadata-driven class system features 
  */
 Ext.Loader.addClassPathMappings({
+  "ETFramework.patch.util.Geolocation": "../packages/ETFramework/overrides/patch/util/Geolocation.js",
   "ETMobile": "app",
   "Ext": "../touch/src",
   "Ext.device.Purchases.Product": "../touch/src/device/purchases/Sencha.js",
@@ -20,6 +21,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.draw.engine.SvgContext.Gradient": "../touch/src/draw/engine/SvgContext.js"
 });
 Ext.ClassManager.addNameAlternateMappings({
+  "ETFramework.patch.util.Geolocation": [],
   "ETMobile.profile.Native": [],
   "ETMobile.view.Main": [],
   "Ext.AbstractComponent": [],
@@ -746,6 +748,7 @@ Ext.ClassManager.addNameAlternateMappings({
   ]
 });
 Ext.ClassManager.addNameAliasMappings({
+  "ETFramework.patch.util.Geolocation": [],
   "ETMobile.profile.Native": [],
   "ETMobile.view.Main": [
     "widget.main"
@@ -1686,3 +1689,4 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.WindowsPhone": []
 });
 Ext.setVersion("ETFramework", "1.0.0");
+Ext.Loader.loadScriptFile("../packages/ETFramework/overrides/patch/util/Geolocation.js", Ext.emptyFn);;
