@@ -1683,3 +1683,4 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": []
 });
+Ext.setVersion("ETFramework", "1.0.0");
