@@ -14,8 +14,7 @@ Ext.application({
     name: 'ETMobile',
 
     requires: [
-        'Ext.MessageBox',
-        'Ext.util.Geolocation'
+        'Ext.MessageBox'
     ],
 
     views: [
