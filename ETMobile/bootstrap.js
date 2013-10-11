@@ -5,7 +5,14 @@
  * metadata-driven class system features 
  */
 Ext.Loader.addClassPathMappings({
+  "ETFramework": "../packages/ETFramework/src/ETFramework.js",
+  "ETFramework.feature.interactive.navigation.Bar": "../packages/ETFramework/src/feature/interactive/navigation/Bar.js",
+  "ETFramework.feature.interactive.view.TileLauncher": "../packages/ETFramework/src/feature/interactive/view/TileLauncher.js",
+  "ETFramework.feature.performance.navigation.View": "../packages/ETFramework/src/feature/performance/navigation/View.js",
+  "ETFramework.feature.performance.view.TileLauncher": "../packages/ETFramework/src/feature/performance/view/TileLauncher.js",
+  "ETFramework.patch.navigation.View": "../packages/ETFramework/overrides/navigation/View.js",
   "ETFramework.patch.util.Geolocation": "../packages/ETFramework/overrides/util/Geolocation.js",
+  "ETFramework.view.TileLauncher": "../packages/ETFramework/src/view/TileLauncher.js",
   "ETMobile": "app",
   "Ext": "../touch/src",
   "Ext.device.Purchases.Product": "../touch/src/device/purchases/Sencha.js",
@@ -21,7 +28,14 @@ Ext.Loader.addClassPathMappings({
   "Ext.draw.engine.SvgContext.Gradient": "../touch/src/draw/engine/SvgContext.js"
 });
 Ext.ClassManager.addNameAlternateMappings({
+  "ETFramework": [],
+  "ETFramework.feature.interactive.navigation.Bar": [],
+  "ETFramework.feature.interactive.view.TileLauncher": [],
+  "ETFramework.feature.performance.navigation.View": [],
+  "ETFramework.feature.performance.view.TileLauncher": [],
+  "ETFramework.patch.navigation.View": [],
   "ETFramework.patch.util.Geolocation": [],
+  "ETFramework.view.TileLauncher": [],
   "ETMobile.profile.Native": [],
   "ETMobile.view.Main": [],
   "Ext.AbstractComponent": [],
@@ -748,7 +762,14 @@ Ext.ClassManager.addNameAlternateMappings({
   ]
 });
 Ext.ClassManager.addNameAliasMappings({
+  "ETFramework": [],
+  "ETFramework.feature.interactive.navigation.Bar": [],
+  "ETFramework.feature.interactive.view.TileLauncher": [],
+  "ETFramework.feature.performance.navigation.View": [],
+  "ETFramework.feature.performance.view.TileLauncher": [],
+  "ETFramework.patch.navigation.View": [],
   "ETFramework.patch.util.Geolocation": [],
+  "ETFramework.view.TileLauncher": [],
   "ETMobile.profile.Native": [],
   "ETMobile.view.Main": [
     "widget.main"
@@ -1690,3 +1711,4 @@ Ext.ClassManager.addNameAliasMappings({
 });
 Ext.setVersion("ETFramework", "1.0.0");
 Ext.Loader.loadScriptFile("../packages/ETFramework/overrides/util/Geolocation.js", Ext.emptyFn);;
+Ext.Loader.loadScriptFile("../packages/ETFramework/overrides/navigation/View.js", Ext.emptyFn);;
