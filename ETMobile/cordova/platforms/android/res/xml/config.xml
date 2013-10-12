@@ -24,4 +24,7 @@
     <preference name="webviewbounce" value="true" />
     <preference name="splashscreen" value="splash" />
     <preference name="splashScreenDelay" value="10000" />
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
 </widget>
