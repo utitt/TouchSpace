@@ -1,5 +1,5 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "name": "org.apache.cordova.vibration",
     "cordova_name": "Vibration",
     "description": "Cordova Vibration Plugin",

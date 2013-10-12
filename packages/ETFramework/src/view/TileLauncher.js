@@ -16,7 +16,7 @@ Ext.define('ETFramework.view.TileLauncher', {
                     'width: {[Ext.Viewport.getWindowWidth() / 3]}px;',
                     'height: {[Ext.Viewport.getWindowWidth() / 3]}px;',
                     'background-size: 100% 100%;',
-                    'background-image: url(resources/images/scalable/access.svg);',
+                    'background-image: url(resources/images/scalable/accessories-calculator.svg);',
                 '">',
                     '<tpl if="badge">',
                         '<span class="x-badge" style="font-size: 1em;">{badge}</span>',
