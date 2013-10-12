@@ -10,8 +10,12 @@ Ext.define('ETMobile.view.Main', {
     
     initialize: function () {
     	this.callParent(arguments);
+    	this.down('button').on('tap', this.scan, this);
     	
-    	cordova.plugins.barcodeScanner.scan(this.onSuccess, this.onFailure);
+    },
+    
+    scan: function () {
+        cordova.plugins.barcodeScanner.scan(this.onSuccess, this.onFailure);
     },
     
     onSuccess: function () {

@@ -13,4 +13,5 @@
     <preference name="webviewbounce" value="true" />
     <preference name="splashscreen" value="splash" />
     <preference name="splashScreenDelay" value="10000" />
+    <preference name="AutoHideSplashScreen" value="false" />
 </widget>

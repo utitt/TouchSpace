@@ -1,11 +1,20 @@
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes.dex : \
+/Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/com/phonegap/plugins/barcodescanner/BarcodeScanner.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/BuildConfig.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/ETMobile.class \
+/Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$array.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$attr.class \
+/Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$color.class \
+/Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$dimen.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$drawable.class \
+/Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$id.class \
+/Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$layout.class \
+/Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$menu.class \
+/Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$raw.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$string.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R$xml.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/foo/bar/ETMobile/R.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/org/apache/cordova/splashscreen/SplashScreen.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/classes/org/apache/cordova/vibration/Vibration.class \
 /Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/dexedLibs/cordova-3.1.0-09d8857513b49a5a63740aab590d283b.jar \
+/Users/User/workspace/TouchSpace/ETMobile/cordova/platforms/android/bin/dexedLibs/com.google.zxing.client.android.captureactivity-857a8d490fcf1f0000c464825440c171.jar \
