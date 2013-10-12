@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /home/gg/workspace/TouchSpace/ETMobile/app.js
+// @require /Users/User/workspace/TouchSpace/ETMobile/app.js
