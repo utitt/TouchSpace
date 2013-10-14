@@ -22,7 +22,7 @@ Ext.define('ETFramework.view.TileLauncher', {
                         '<span class="x-badge" style="font-size: 1em;">{badge}</span>',
                     '</tpl>',
                 '</div>',
-                '<div style="text-align: center; text-shadow: #fff 0 0.08em 0;">{name}</div>'
+                '<div style="text-align: center;">{name}</div>'
             ].join(''),
             store: {
                 fields: ['name'],

@@ -6,12 +6,15 @@
  */
 Ext.Loader.addClassPathMappings({
   "ETFramework": "../packages/ETFramework/src/ETFramework.js",
+  "ETFramework.EventBus": "../packages/ETFramework/src/EventBus.js",
+  "ETFramework.Setting": "../packages/ETFramework/src/Setting.js",
   "ETFramework.feature.interactive.navigation.Bar": "../packages/ETFramework/src/feature/interactive/navigation/Bar.js",
   "ETFramework.feature.interactive.view.TileLauncher": "../packages/ETFramework/src/feature/interactive/view/TileLauncher.js",
   "ETFramework.feature.performance.navigation.View": "../packages/ETFramework/src/feature/performance/navigation/View.js",
   "ETFramework.feature.performance.view.TileLauncher": "../packages/ETFramework/src/feature/performance/view/TileLauncher.js",
   "ETFramework.patch.navigation.View": "../packages/ETFramework/overrides/navigation/View.js",
   "ETFramework.patch.util.Geolocation": "../packages/ETFramework/overrides/util/Geolocation.js",
+  "ETFramework.view.Login": "../packages/ETFramework/src/view/Login.js",
   "ETFramework.view.TileLauncher": "../packages/ETFramework/src/view/TileLauncher.js",
   "ETMobile": "app",
   "Ext": "../touch/src",
@@ -29,13 +32,17 @@ Ext.Loader.addClassPathMappings({
 });
 Ext.ClassManager.addNameAlternateMappings({
   "ETFramework": [],
+  "ETFramework.EventBus": [],
+  "ETFramework.Setting": [],
   "ETFramework.feature.interactive.navigation.Bar": [],
   "ETFramework.feature.interactive.view.TileLauncher": [],
   "ETFramework.feature.performance.navigation.View": [],
   "ETFramework.feature.performance.view.TileLauncher": [],
   "ETFramework.patch.navigation.View": [],
   "ETFramework.patch.util.Geolocation": [],
+  "ETFramework.view.Login": [],
   "ETFramework.view.TileLauncher": [],
+  "ETMobile.controller.Main": [],
   "ETMobile.profile.Native": [],
   "ETMobile.view.Main": [],
   "Ext.AbstractComponent": [],
@@ -763,17 +770,19 @@ Ext.ClassManager.addNameAlternateMappings({
 });
 Ext.ClassManager.addNameAliasMappings({
   "ETFramework": [],
+  "ETFramework.EventBus": [],
+  "ETFramework.Setting": [],
   "ETFramework.feature.interactive.navigation.Bar": [],
   "ETFramework.feature.interactive.view.TileLauncher": [],
   "ETFramework.feature.performance.navigation.View": [],
   "ETFramework.feature.performance.view.TileLauncher": [],
   "ETFramework.patch.navigation.View": [],
   "ETFramework.patch.util.Geolocation": [],
+  "ETFramework.view.Login": [],
   "ETFramework.view.TileLauncher": [],
+  "ETMobile.controller.Main": [],
   "ETMobile.profile.Native": [],
-  "ETMobile.view.Main": [
-    "widget.main"
-  ],
+  "ETMobile.view.Main": [],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],
   "Ext.AbstractPlugin": [],

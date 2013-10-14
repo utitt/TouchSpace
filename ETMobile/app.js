@@ -16,8 +16,8 @@ Ext.application({
     requires: [
         'Ext.MessageBox'
     ],
-
-    views: [
+    
+    controllers: [
         'Main'
     ],
     
@@ -46,9 +46,6 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
-
-        // Initialize the main view
-        Ext.Viewport.add(Ext.create('ETMobile.view.Main'));
     },
 
     onUpdated: function() {
@@ -62,4 +59,5 @@ Ext.application({
             }
         );
     }
+    
 });
