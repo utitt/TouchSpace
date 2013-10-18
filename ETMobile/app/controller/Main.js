@@ -7,7 +7,7 @@ Ext.define('ETMobile.controller.Main', {
     },
     
     launch: function () {
-        Ext.Viewport.add(Ext.create('ETMobile.view.Main'));
+        Ext.Viewport.add(Ext.create('ETMobile.view.Main'));   
     }
     
 });
